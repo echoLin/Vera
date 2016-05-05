@@ -25,10 +25,14 @@ class  Vera_Bootstrap
 		date_default_timezone_set('Asia/Shanghai');
 
 		//应用的根目录就是index.php的父目录
-		define("SERVER_ROOT", $_SERVER['DOCUMENT_ROOT'] . '/');
+		define("SERVER_ROOT", $_SERVER['DOCUMENT_ROOT'] . '/Vera/');
 
 		$url = parse_url($_SERVER['REQUEST_URI']);
+		//  $url = '/Vera.....'
+		$url['path'] = explode('/Vera', $url['path']);
+		$url['path'] = $url['path'][1];
 		$temp = explode('/', $url['path']);
+
 
 		if (!empty($temp[1])) {
 			$GLOBALS['APP_NAME'] = $temp[1];

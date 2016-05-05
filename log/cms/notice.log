@@ -1,0 +1,4 @@
+[NOTICE] time[2016-05-05 14:12:43] method[GET] remoteIP[::1] requestURI[/Vera/cms] auth[success] isDebug[1] 
+[NOTICE] time[2016-05-05 14:13:43] method[GET] remoteIP[::1] requestURI[/Vera/cms/board] auth[fail] 
+[NOTICE] time[2016-05-05 14:14:27] method[GET] remoteIP[::1] requestURI[/Vera/cms] auth[success] isDebug[1] 
+[NOTICE] time[2016-05-05 14:14:27] method[GET] remoteIP[::1] requestURI[/Vera/cms] auth[success] isDebug[1] 
