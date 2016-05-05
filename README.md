@@ -36,3 +36,9 @@ There are too many works to finish this fantastic framework.
 
 If you are familiar with front-end, let's do this together.
 
+##Apache .htaccess
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^?]*)(/?.*)?$ index.php$2
+
+
